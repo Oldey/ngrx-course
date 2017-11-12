@@ -1,0 +1,5 @@
+<ul class="message-list" #list>
+    <li class="message-list-item" *ngFor="let message of messages">
+        <nc-chat-message [message]="message"></nc-chat-message>
+    </li>
+</ul>
